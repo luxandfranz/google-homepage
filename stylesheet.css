@@ -1,0 +1,19 @@
+img {
+    display: grid;
+    margin: auto;
+    padding-top: 5em;
+    width: 30%;
+}
+
+.form {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+#input {
+    width: 600px;
+    height: 40px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .1);
+    border: 1px solid lightgray;
+}
