@@ -2,6 +2,7 @@ img {
     display: grid;
     margin: auto;
     padding-top: 5em;
+    padding-bottom: 10px;
     width: 30%;
 }
 
@@ -9,11 +10,28 @@ img {
     display: block;
     text-align: center;
     margin: auto;
+    padding-bottom: 30px;
 }
 
 #input {
-    width: 600px;
+    width: 550px;
     height: 40px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .1);
     border: 1px solid lightgray;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.button {
+    color: #757575;
+    border: none;
+    background-color: #f2f2f2;
+    font-family: Arial;
+    padding: 10px 10px 10px 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
 }
